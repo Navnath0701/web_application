@@ -3,10 +3,8 @@
     <head>
         <title>PLACEMENT INFORMATION</title>
         <style>
-            div.background{
-               
-                background: url(blcc.webp);
-            }
+           
+            /*
             table, th, td {
               position:relative;
               margin-left: 300px;
@@ -82,19 +80,263 @@
                 color: aliceblue;
 
             } */
+            nav{
+                display: flex;
+                justify-content: space-around;
+                background-color: black;
+                opacity: 0.8;
+            }
+           
+            h4{
+                margin-top: 0;
+                color: red;
+            }
+            label
+            {
+                color: aqua;
+            }
+            .icon
+            {
+                width: 10vw;
+                height: 5vh;
+                padding: 3px;
+                border-radius: 20vw;
+            }
+            .profile
+            {
+                width: 10vw;
+                height: 5vh;
+                border: 2px solid wheat;
+            }
+           
+            section
+            {
+                margin-top: 10px;
+                display: flex;
+
+               
+               
+            }
+            .placement
+            {
+                height: 20vh;
+                width: 30vw;
+                border-radius: 10px;
+            }
+            table
+            {
+                margin-top: 100px;
+            }
+            table,td,tr
+            {
+                border: 2px solid red;
+                
+                margin: auto;
+                color: aqua;
+            }
+            .user_info
+            {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .meta
+            {
+                color: blue;
+            }
+            section
+            {
+                display: flex;
+                justify-content: center;
+                align-content: center;
+            }
+            .space_req
+            {
+                width: 50vw;
+               
+            }
+            .search
+            {
+                margin-top: 35px;
+            }
+            .middle_data
+            {
+                background-image: url('blcc.webp');
+            }
+            ul{
+                display: flex;
+                list-style: none;
+                background-color: black;
+                opacity: 0.8;
+                justify-content: center;
+                margin-top: 0;
+            }
+            li
+            {
+                color: red;
+                padding: 27px;
+            }
+            a{
+                text-decoration: none;
+                color: red;
+            }
         </style>
     </head>
     <body>
         <div class="background">
+            <nav>
+                <img class="icon" src="placementicon.jpg">
+            
+                <div class="user_info">
+
+                    <img class ="profile" src="user.webp" >
+                    <h4 class="meta">username</h4>
+
+                </div>
+               
+                
+            </nav>
+            
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <div class="middle_data">
+
+         
+            
+            <section>
+                <img src="placement.jpeg" class="placement">
+                <div class="space_req">
+
+                </div>
+                <div class="search">
+                    <label class = "collegesearchtext" for="searchcollege"> Search College</label>
+                    <input class = "collegesearch" type="text" id="search_college" name="search_college" placeholder="Search Here">
+    
+                </div>
+
+         
+                </section>
+            <table>
+                <thead>
+                    <tr>
+                        <th class="college">Name of the college</th>
+                        <th class="nos">No of students placed</th>
+                        <th class="nos">Highest package</th>
+                        <th class="nos">Average package</th>
+                        <th class="nos">more info</th>
+    
+                    </tr>
+                </thead>
+                
+            
+                <tbody>
+                    <tr>
+                        <td class="college">College A</td>
+                        <td class="nos"> 100</td>
+                        <td class="nos">10</td>
+                        <td class="nos">5</td>
+                        <td class="view"><button>view</button></td> 
+                    </tr>
+                    <tr>
+                        <td class="college">College B</td>
+                        <td  class="nos">100</td>
+                        <td class="nos">10</td>
+                        <td class="nos">5</td>
+                        <td class="view"><button>view</button></td> 
+                    </tr>
+                    <tr>
+                        <td class="college">College C</td>
+                        <td  class="nos">100</td>
+                        <td class="nos">10</td>
+                        <td class="nos">5</td>
+                        <td class="view"><button>view</button></td> 
+                    </tr>
+                    <tr>
+                        <td class="college">College D</td>
+                        <td  class="nos">100</td>
+                        <td class="nos">10</td>
+                        <td class="nos">5</td>
+                        <td class="view"><button>view</button></td> 
+                    </tr>
+                    <tr>
+                        <td class="college">College E</td>
+                        <td  class="nos">100</td>
+                        <td class="nos">10</td>
+                        <td class="nos">5</td>
+                        <td class="view"><button>view</button></td> 
+                    </tr>
+                    <tr>
+                        <td class="college">College F</td>
+                        <td  class="nos">100</td>
+                        <td class="nos">10</td>
+                        <td class="nos">5</td>
+                        <td class="view"><button>view</button></td> 
+                    </tr>
+                    <tr>
+                        <td class="college">College G</td>
+                        <td  class="nos">100</td>
+                        <td class="nos">10</td>
+                        <td class="nos">5</td>
+                        <td class="view"><button>view</button></td> 
+                    </tr>
+                    <tr>
+                        <td class="college">College G</td>
+                        <td  class="nos">100</td>
+                        <td class="nos">10</td>
+                        <td class="nos">5</td>
+                        <td class="view"><button>view</button></td> 
+                    </tr>
+                    <tr>
+                        <td class="college">College G</td>
+                        <td  class="nos">100</td>
+                        <td class="nos">10</td>
+                        <td class="nos">5</td>
+                        <td class="view"><button>view</button></td> 
+                    </tr>
+                    <tr>
+                        <td class="college">College G</td>
+                        <td  class="nos">100</td>
+                        <td class="nos">10</td>
+                        <td class="nos">5</td>
+                        <td class="view"><button>view</button></td> 
+                    </tr>
+                    <tr>
+                        <td class="college">College G</td>
+                        <td  class="nos">100</td>
+                        <td class="nos">10</td>
+                        <td class="nos">5</td>
+                        <td class="view"><button>view</button></td> 
+                    </tr>
+                    <tr>
+                        <td class="college">College G</td>
+                        <td  class="nos">100</td>
+                        <td class="nos">10</td>
+                        <td class="nos">5</td>
+                        <td class="view"><button>view</button></td> 
+                    </tr>
+                    <tfoot class="nos">
+                        <th colspan="4">
+                            Total number of students placed = X
+                        </th>
+                    </tfoot>
+                </tbody>
+            </table>
+        </div>
+           
+            <!--
+                
             <div class="images">
                 <img class="icon" src="placementicon.jpg">
                 <p class="username">username</p>
                 
             </div>
-            <div class="images">
-                
-                <img class ="profile" src="user.webp" >
-                <!-- <p class="iconame">name</p> -->
+           
             </div>
             <h4 class="heading">Welcome to</h4>
             <h1 class="heading">Inter-linked Platform for Campus Placement in  </h1>
@@ -216,7 +458,10 @@
             <br>
             <br>
             <br>
+            -->
         </div>
+        
+            
     </body>
 
 
